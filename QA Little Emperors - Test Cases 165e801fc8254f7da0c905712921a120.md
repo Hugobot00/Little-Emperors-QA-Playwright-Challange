@@ -18,11 +18,21 @@ This process ensures the stability and integrity of the platform after each upda
 
 ### Documentation for Manual Tests - Little Emperors
 
-Here is documentated how to manual testing on our Dashboard plataform and using Postman collection
 
-- **Manual Frontend Tests**
+Manual testing complements automated testing in ensuring comprehensive software quality assurance. Here's a summary of manual testing aspects for both frontend and backend functionalities:
+
+Frontend Manual Testing:
+
+Authentication: Verify login functionality with various scenarios (correct credentials, incorrect password, invalid email).
+Hotel Management: Manually create, view, update, and delete hotels via the dashboard to ensure user interface responsiveness and accuracy.
+Backend Manual Testing:
+
+API Authentication: Validate authentication mechanisms by accessing endpoints with valid and invalid tokens.
+Hotel Operations: Manually verify CRUD (Create, Retrieve, Update, Delete) operations for hotels via API, ensuring data integrity and proper error handling.
+
+- ## Manual Frontend Tests
     
-    # Authentication
+    ## Authentication
     
     ### Scenario: Successful Login
     
@@ -114,7 +124,8 @@ Here is documentated how to manual testing on our Dashboard plataform and using 
     
     - Update an existing hotel: `PUT Request` to update an existing hotel, its possible to update any query parameters information.
 
-![Untitled](QA%20Little%20Emperors%20-%20Test%20Cases%20165e801fc8254f7da0c905712921a120/Untitled.png)
+![Untitled](https://github.com/Hugobot00/Little-Emperors-QA-Playwright-Challange/assets/131987814/23f18c49-4943-4b3f-8389-d1b5288435cc)
+
 
 [Little Emperors.postman_collection.json](QA%20Little%20Emperors%20-%20Test%20Cases%20165e801fc8254f7da0c905712921a120/Little_Emperors.postman_collection.json)
 
@@ -122,7 +133,7 @@ Here is documentated how to manual testing on our Dashboard plataform and using 
 
 - Knowing bugs:
     
-    ### Bug Report
+    ## Bug Report
     
     **Summary:**
     The text is not visible because both the background and the text are white. This issue affects the modal form and the landing page with hotel lists, Chrome and Firefox are affected.
@@ -141,13 +152,12 @@ Here is documentated how to manual testing on our Dashboard plataform and using 
     **Workaround:**
     Disabling the CSS variable `--foreground-rgb: 255, 255, 255;` in the HTML made the text visible.
     
-    ![Untitled](QA%20Little%20Emperors%20-%20Test%20Cases%20165e801fc8254f7da0c905712921a120/Untitled%201.png)
-    
-    ![Untitled](QA%20Little%20Emperors%20-%20Test%20Cases%20165e801fc8254f7da0c905712921a120/Untitled%202.png)
-    
-    ![Untitled](QA%20Little%20Emperors%20-%20Test%20Cases%20165e801fc8254f7da0c905712921a120/Untitled%203.png)
-    
-    ![Untitled](QA%20Little%20Emperors%20-%20Test%20Cases%20165e801fc8254f7da0c905712921a120/Untitled%204.png)
+![Untitled 2](https://github.com/Hugobot00/Little-Emperors-QA-Playwright-Challange/assets/131987814/70d883d7-fcb3-406c-a18c-c7d958c98f2f)
+![Untitled 1](https://github.com/Hugobot00/Little-Emperors-QA-Playwright-Challange/assets/131987814/5b7aca7e-99f6-4c83-b4a5-1faa70fadef8)
+![Untitled 4](https://github.com/Hugobot00/Little-Emperors-QA-Playwright-Challange/assets/131987814/56e109d4-d08d-46e7-a83a-69fd77186d5b)
+![Untitled 3](https://github.com/Hugobot00/Little-Emperors-QA-Playwright-Challange/assets/131987814/addbee90-0acc-4f75-8853-fbae35af21f9)
+
+
     
 
 ---
