@@ -31,43 +31,9 @@ The project is organized as follows:
 
 ## Implemented Tests
 
-### Frontend Tests
-#### `login.spec.js`
-1. **Visit to the Login Page**
-   - **Description**: Checks if the login page is accessible.
-   - **Expected Result**: The login page loads successfully.
+Please refer to this [Documentation](https://github.com/Hugobot00/Little-Emperors-QA-Playwright-Challange/blob/main/QA%20Little%20Emperors%20-%20Test%20Cases%20165e801fc8254f7da0c905712921a120.md) to access details on the manual and automated tests conducted, as well as to review identified bugs.
 
-2. **Login with Correct Credentials**
-   - **Description**: Tests the login process using a set of valid credentials.
-   - **Expected Result**: The login is successful, and the user is redirected to the home page or dashboard.
-
-3. **Login with Incorrect Credentials**
-   - **Description**: Tests the login process using a set of invalid credentials.
-   - **Expected Result**: The login fails, and an error message is displayed to the user.
-
-### Backend Tests
-#### `hotelModulation.spec.js`
-1. **Editing a Created Hotel**
-   - **Description**: Tests the update of an existing hotel's data.
-   - **Expected Result**: The API returns a 200 OK status.
-
-2. **Deleting a Created Hotel**
-   - **Description**: Tests the deletion of a hotel.
-   - **Expected Result**: The API returns a 204 No Content status.
-
-#### `auth.spec.js`
-1. **Authentication with Valid Access**
-   - **Description**: Tests the authentication process with valid access credentials.
-   - **Expected Result**: The API returns a 200 OK status.
-
-2. **Authentication with Invalid Access**
-   - **Description**: Tests the authentication process with invalid access credentials.
-   - **Expected Result**: The API returns a 401 Unauthorized status.
-
-## Prerequisites
-- Node.js installed.
-- Project dependencies, including Playwright, installed via npm.
-
+----
 ## Installation
 1. Clone the repository.
 2. Navigate to the project directory and run `npm install`.
