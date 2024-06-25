@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "755791e4-1aca-45d5-a240-542177c0063f",
+		"name": "Little Emperors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18367366"
+	},
+	"item": [
+		{
+			"name": "All Hotel list",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Search hotel by id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete an hotel",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "35|vYQMXUynfGmBSy7uhiBsLKHQRbmV0HSTp8IeOYHY1ab6b20d",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "https://recruitment-api.littleemperors.com/api/hotels/458",
+					"protocol": "https",
+					"host": [
+						"recruitment-api",
+						"littleemperors",
+						"com"
+					],
+					"path": [
+						"api",
+						"hotels",
+						"458"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve hotel by id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "35|vYQMXUynfGmBSy7uhiBsLKHQRbmV0HSTp8IeOYHY1ab6b20d",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Create new hotel",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "35|vYQMXUynfGmBSy7uhiBsLKHQRbmV0HSTp8IeOYHY1ab6b20d",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://recruitment-api.littleemperors.com/api/hotels?name&city&description&address&stars",
+					"protocol": "https",
+					"host": [
+						"recruitment-api",
+						"littleemperors",
+						"com"
+					],
+					"path": [
+						"api",
+						"hotels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": null,
+							"description": "required"
+						},
+						{
+							"key": "city",
+							"value": null,
+							"description": "required"
+						},
+						{
+							"key": "description",
+							"value": null,
+							"description": "required"
+						},
+						{
+							"key": "address",
+							"value": null,
+							"description": "optional"
+						},
+						{
+							"key": "stars",
+							"value": null,
+							"description": "optional"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update an existing hotel",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "35|vYQMXUynfGmBSy7uhiBsLKHQRbmV0HSTp8IeOYHY1ab6b20d",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://recruitment-api.littleemperors.com/api/hotels/455?name&city&description&address&stars",
+					"protocol": "https",
+					"host": [
+						"recruitment-api",
+						"littleemperors",
+						"com"
+					],
+					"path": [
+						"api",
+						"hotels",
+						"455"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": null,
+							"description": "required"
+						},
+						{
+							"key": "city",
+							"value": null,
+							"description": "required"
+						},
+						{
+							"key": "description",
+							"value": null,
+							"description": "required"
+						},
+						{
+							"key": "address",
+							"value": null,
+							"description": "optional"
+						},
+						{
+							"key": "stars",
+							"value": null,
+							"description": "optional"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
