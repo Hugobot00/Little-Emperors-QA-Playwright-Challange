@@ -91,8 +91,11 @@ To execute tests with UI, use:
 npx playwright test --ui
 ```
 
-## Contribution
-Contributions are welcome. Please follow the project’s contribution guidelines to submit your changes or new tests.
+![Test report](https://github.com/Hugobot00/Little-Emperors-QA-Playwright-Challange/assets/131987814/90040c16-fe38-4a1d-b50b-b2e0a3ff78c9)
+
+
+
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
